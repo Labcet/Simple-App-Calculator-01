@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Coding Oasis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <span id="calculator-screen">0</span>
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button class="special-1" onclick="button_clicked('C');">C</button>
+                <button class="special-1" onclick="button_clicked('back');">&larr;</button>
+                <button class="special-1" onclick="button_clicked('%');">%</button>
+                <button class="special-1" onclick="button_clicked('/');">&divide;</button>
+            </div>
+            <div class="row">
+                <button onclick="button_clicked(7);">7</button>
+                <button onclick="button_clicked(8);">8</button>
+                <button onclick="button_clicked(9);">9</button>
+                <button class="special-2" onclick="button_clicked('X');">&times;</button>
+            </div>
+            <div class="row">
+                <button onclick="button_clicked(4);">4</button>
+                <button onclick="button_clicked(5);">5</button>
+                <button onclick="button_clicked(6);">6</button>
+                <button class="special-2" onclick="button_clicked('+');">&plus;</button>
+            </div>
+            <div class="row">
+                <button onclick="button_clicked(1);">1</button>
+                <button onclick="button_clicked(2);">2</button>
+                <button onclick="button_clicked(3);">3</button>
+                <button class="special-2" onclick="button_clicked('-');">&minus;</button>
+            </div>
+            <div class="row">
+                <button onclick="button_clicked('negpos');">&plus;/&minus;</button>
+                <button onclick="button_clicked(0);">0</button>
+                <button onclick="button_clicked('.');">.</button>
+                <button class="special-2" onclick="button_clicked('=');">&equals;</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
